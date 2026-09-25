@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "app_main.c"
+        "src/acquisition.c"
+        "src/measurement.c"
+        "src/fault_monitor.c"
+        "src/telemetry.c"
+    INCLUDE_DIRS
+        "."
+        "include"
+)
