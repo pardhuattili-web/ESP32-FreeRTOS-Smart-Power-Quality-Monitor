@@ -1,0 +1,15 @@
+menu "Smart Power Quality Monitor"
+
+config PQM_VOLTAGE_UNDERVOLT
+    int "Under-voltage threshold"
+    default 10
+
+config PQM_VOLTAGE_OVERVOLT
+    int "Over-voltage threshold"
+    default 14
+
+config PQM_CURRENT_OVERCURRENT
+    int "Over-current threshold"
+    default 8
+
+endmenu
